@@ -1,0 +1,36 @@
+.parent{
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border-radius: 30px;
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    
+}
+.child{
+    background: linear-gradient(to right,orange,red);
+    height: 300px;
+    width: 300px;
+    border-radius:20px;
+    position: absolute;
+    left:160px;
+    top:200px;
+    }
+    .c2{
+        position:absolute; 
+        left:300px;
+        top: 150px;
+    }
+    button{
+        background: linear-gradient(to right,orange,red);
+        border-radius:50px ;
+        height: 50px;
+        width: 200px;
+        border: none;
+    }
+     .scrollbar{ 
+      overflow-y: scroll;
+    } 
+       
+    
